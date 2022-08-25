@@ -3,13 +3,13 @@ class Triangle
   attr_accessor :a_side, :b_side ,:c_side
 
 
-  @@sides =[]
+  
 
   def initialize(a_side,b_side,c_side)
     @a_side = a_side
     @b_side = b_side
     @c_side = c_side
-    @@sides.push(a_side,b_side,c_side)
+   
   
   end
 
